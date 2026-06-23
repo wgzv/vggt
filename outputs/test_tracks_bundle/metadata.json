@@ -1,0 +1,52 @@
+{
+  "image_folder": "C:\\Users\\23651\\Documents\\VGGT\\examples\\test",
+  "image_names": [
+    "塔-45度.jpg",
+    "塔0度.jpg",
+    "塔45度.jpg",
+    "塔90度.jpg"
+  ],
+  "track_image_resolution": 1024,
+  "vggt_resolution": 518,
+  "coordinate_notes": {
+    "pred_tracks": "2D tracks in padded square track-image coordinates.",
+    "original_coords": "[x1, y1, x2, y2, original_width, original_height] in padded square coordinates.",
+    "intrinsic": "Intrinsics scaled to 1024x1024.",
+    "intrinsic_518": "Intrinsics at VGGT inference resolution 518x518.",
+    "extrinsic": "OpenCV camera-from-world 3x4 matrices.",
+    "points_3d": "Tracked 3D points corresponding to the exported track points.",
+    "points_rgb": "RGB colors for points_3d, uint8 in 0..255."
+  },
+  "shapes": {
+    "pred_tracks": [
+      4,
+      3677,
+      2
+    ],
+    "pred_vis_scores": [
+      4,
+      3677
+    ],
+    "pred_confs": [
+      3677
+    ],
+    "points_3d": [
+      3677,
+      3
+    ],
+    "points_rgb": [
+      3677,
+      3
+    ],
+    "intrinsic": [
+      4,
+      3,
+      3
+    ],
+    "extrinsic": [
+      4,
+      3,
+      4
+    ]
+  }
+}
